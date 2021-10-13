@@ -33,8 +33,10 @@ Basic [Token = base64 encoded apiKey:secret]
 ## Response Format
 The output response body will be a JSON of the following format -
 
+
+```javascript
 {
 	result:”{transliterated text} OR {error message in case success=false}”,
 	success : “true|false”
 }
-
+```
